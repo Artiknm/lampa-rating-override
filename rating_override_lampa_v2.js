@@ -4,7 +4,7 @@
     if (window.lampa_rating_override_loaded) return;
     window.lampa_rating_override_loaded = true;
 
-    const OMDB_API_KEY = 'http://www.omdbapi.com/?i=tt3896198&apikey=36bce37e'; // твій OMDb ключ
+    const OMDB_API_KEY = '36bce37e'; // твій OMDb ключ
     const SHIKIMORI_API = 'https://shikimori.one/api/animes/'; // базовий URL Shikimori
 
     function isAnime(card) {
